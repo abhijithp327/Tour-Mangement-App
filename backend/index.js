@@ -46,7 +46,8 @@ app.get('/', (req,res) => {
 
 app.use(express.json());
 app.use(cors({
-    origin:true,
+    origin:"https://tour-booking-9jxj.onrender.com",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials:true,
 }));
 app.use(cookieParser());
