@@ -41,12 +41,12 @@ const connect = async () => {
 //middleware
 
 app.get('/', (req,res) => {
-    res.json("Tour Booking Server Online")
+    res.json("Tour  Booking Server is Online")
 });
 
 app.use(express.json());
 app.use(cors({
-    origin:"https://tour-mangement-app.vercel.app",
+    origin:true,
     credentials:true,
 }));
 app.use(cookieParser());
