@@ -46,7 +46,7 @@ app.get('/', (req,res) => {
 
 app.use(express.json());
 app.use(cors({
-    origin:true,
+    origin:"https://tour-mangement-app.vercel.app",
     credentials:true,
 }));
 app.use(cookieParser());
