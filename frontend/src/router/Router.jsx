@@ -10,7 +10,7 @@ import ThankYou from '../pages/ThankYou';
 
 const Router = () => {
   return (
-   <Routes basename="/tour-mangement-app">
+   <Routes basename="/home">
     <Route path='/' element={<Navigate to='/home' /> } />
     <Route path='/home' element={<Home/>} />
     <Route path='/tours' element={<Tour/>} />
