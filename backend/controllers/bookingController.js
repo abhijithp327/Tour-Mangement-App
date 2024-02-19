@@ -1,6 +1,5 @@
 import Booking from "../models/Booking.js";
 
-
 export const createBooking = async (req, res) => {
 
     const newBooking = new Booking(req.body)
