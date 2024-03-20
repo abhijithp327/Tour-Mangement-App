@@ -54,6 +54,7 @@ const Header = () => {
 
   useEffect(() => {
     stickyHeaderFunc()
+    
 
     return window.removeEventListener('scroll' , stickyHeaderFunc)
   })
