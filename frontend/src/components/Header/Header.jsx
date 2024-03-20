@@ -16,10 +16,12 @@ const nav__links = [
     path: "/home",
     display: 'Home'
   },
+  
   {
     path: "/about",
     display: 'About'
   },
+  
   {
     path: "/tours",
     display: 'Tours'
